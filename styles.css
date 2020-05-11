@@ -11,8 +11,10 @@ body{
 }
 .container{
     text-align: center;
+    padding: 1rem;
+    border-radius: 0px;
     background-color: #fff;
-    flex: 0 0 50%;
+    flex: 0 0 80%;
 }
 #quoteBtn{
     border: none;
@@ -29,6 +31,10 @@ body{
 blockquote{
     background: #f0f0f0;
     border-left: 10px solid #fcdbbf;
+    margin-top: 0.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0.5rem;
 }
 #quoteAuthor{
     color: #ffd000;
